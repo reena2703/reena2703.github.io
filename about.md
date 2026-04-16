@@ -1,18 +1,17 @@
 ---
-title: Colophon
+title: rynkage
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Hello peeps, I'm a Computer Science student passionate about cybersecurity. This blog is where I document my learning, notes, and security research.
 comments: false
 ---
+She’s a Computer Science student from Bangalore, focused on cybersecurity. This blog is for documenting her security 🔐 journey — including labs, notes, and research, running on Jekyll, hosted on Netlify and using his own simple theme. She often forgets things, that’s one reason why she writes.
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+If you have a question about her or anything else, just send a letter to her.
 
-If you have a question about him or else, just send a letter to him.
-
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
+You can report if there is any broken link(s) or something else.
 **may u needs ✨**
+ 
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- {{ reena032002@gmail.com }}
+-  reena2703/{{ site.author.github }}
