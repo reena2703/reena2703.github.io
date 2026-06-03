@@ -5,7 +5,7 @@ date:   2024-01-21 09:29:20 +0700
 categories: vuln_scan
 ---
 
-# Secure Scope | A College Project That Taught Me Vulnerability Intelligence
+# Secure Scope: An Overview
 
 Back in 2023, during my college days, I built a small security project called **Secure Scope**.
 
@@ -23,7 +23,7 @@ For example, if a website was running an outdated WordPress version, the platfor
 
 Looking back, the project was fairly simple, but it was one of the first times I combined reconnaissance, version fingerprinting, vulnerability intelligence, and automation into a single workflow.
 
-< InsertScreenshot > HomepageUI >
+![](https://raw.githubusercontent.com/reena2703/reena2703.github.io/master/_posts/secure-scope/imgs/homepage.png)
 
 ## How It Worked
 
@@ -49,7 +49,7 @@ For vulnerability matching, I used `searchsploit`, which provided an easy way to
 
 While the logic wasn't particularly advanced, it gave me a practical understanding of how vulnerability intelligence systems work behind the scenes.
 
-< InsertScreenshot > Dashboard >
+![](https://raw.githubusercontent.com/reena2703/reena2703.github.io/master/_posts/secure-scope/imgs/dashboard.png)
 
 ## Tech Stack
 
@@ -83,7 +83,7 @@ The results were presented visually so that vulnerable components could be ident
 
 If a vulnerable version was detected, the dashboard would highlight it and provide related exploit references. If no known public vulnerabilities were found, the component would simply be marked as safe based on the available intelligence.
 
-< Insert Screenshot > Version Detection & Vulnerability Scanner >
+![](https://raw.githubusercontent.com/reena2703/reena2703.github.io/master/_posts/secure-scope/imgs/version_ident.png)
 
 ## Results
 
@@ -91,15 +91,15 @@ One of the more interesting parts of building Secure Scope was testing it agains
 
 Some sites were fully up to date and produced clean results.
 
-< InsertScreenshot > SafeWebsiteResult >
+![](https://raw.githubusercontent.com/reena2703/reena2703.github.io/master/_posts/secure-scope/imgs/safe_scan.png)
 
 Others exposed older versions of frameworks or CMS platforms that had publicly documented security issues.
 
-< InsertScreenshot > UnsafeWebsiteResult >
+![](https://raw.githubusercontent.com/reena2703/reena2703.github.io/master/_posts/secure-scope/imgs/unsafe_scan.png)
 
 In cases where public exploit information existed, Secure Scope could also surface matching entries from Exploit-DB through `searchsploit`.
 
-< InsertScreenshot > ExploitDBResult >
+![](https://raw.githubusercontent.com/reena2703/reena2703.github.io/master/_posts/secure-scope/imgs/exploit_db.png)
 
 ## Looking Back
 
