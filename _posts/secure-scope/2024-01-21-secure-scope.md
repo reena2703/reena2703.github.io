@@ -7,7 +7,7 @@ categories: vuln_scan
 
 # Secure Scope: An Overview
 
-Back in 2023, during my college days, I built a small security project called **Secure Scope**.
+Back in 2024, during my college days, I built a small security project called **Secure Scope**.
 
 The idea came from a simple question:
 
